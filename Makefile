@@ -1,4 +1,4 @@
-OPENRESTY_PREFIX ?= /usr/local/openresty
+OPENRESTY_PREFIX ?= /opt/openresty-1.13.6.1
 LUA_LIB_DIR      ?= $(OPENRESTY_PREFIX)/site/lualib
 INSTALL_SOFT     ?= ln -s
 INSTALL          ?= install
